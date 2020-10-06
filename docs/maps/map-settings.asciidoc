@@ -28,7 +28,7 @@ Configure the initial map center and zoom.
 
 Use spatial filter settings to configure how <<maps-spatial-filters, spatial filters>> are displayed.
 
-image::maps/images/spatial_filters.png[]
+image::maps/images/spatial_filters.png[Image showing spatial filters on the map. The two overlapping filters are both tan colored. One is rectangular and the other is a circular]
 
 *Show spatial filters on map*::
 Clear the checkbox so <<maps-spatial-filters, spatial filters>> do not appear on the map.
