@@ -5,7 +5,7 @@
 Heat map layers cluster point data to show locations with higher densities.
 
 [role="screenshot"]
-image::maps/images/heatmap_layer.png[]
+image::maps/images/heatmap_layer.png[Image demonstrating heatmap, with "add layer" button selected in blue]
 
 To add a heat map layer to your map, click *Add layer*, then select *Heat map*.
 The index must contain at least one field mapped as {ref}/geo-point.html[geo_point] or {ref}/geo-shape.html[geo_shape].
