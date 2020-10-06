@@ -39,7 +39,7 @@ You're adding flight paths to this area, and this
 sets up the map for a good view of the data.
 +
 [role="screenshot"]
-image::maps/images/fu_gs_new_england_map.png[]
+image::maps/images/fu_gs_new_england_map.png[Map of New England area, with "add layer" button in top right corner of the screen selected blue]
 
 [float]
 [[upload-and-index-geojson-file]]
@@ -74,7 +74,7 @@ but there are a few additions and tweaks that you can make to tell a
 better story with your data.
 +
 [role="screenshot"]
-image::maps/images/fu_gs_flight_paths.png[]
+image::maps/images/fu_gs_flight_paths.png[Image showing updated map, with menu listing layers in the top right corner of the screen]
 
 [float]
 === Add a heatmap aggregation layer
@@ -112,7 +112,7 @@ With your new lightning heat map layer, your map should look
 like this:
 +
 [role="screenshot"]
-image::maps/images/fu_gs_lightning_intensity.png[]
+image::maps/images/fu_gs_lightning_intensity.png[Image displaying the lightning heat map layer, which is green in the area of higher frequency lightning strikes, and blue in lower frequency areas.]
 
 
 [float]
@@ -133,4 +133,4 @@ When you've finished, again be sure to <<maps-save, save your work >>.
 Your final map might look like this:
 
 [role="screenshot"]
-image::maps/images/fu_gs_final_map.png[]
+image::maps/images/fu_gs_final_map.png[Image displaying final map, with all layers except "lighting strikes" selected.]
