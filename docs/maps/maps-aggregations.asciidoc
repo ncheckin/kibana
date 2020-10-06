@@ -116,7 +116,7 @@ The <<maps-add-choropleth-layer, choropleth layer example>> uses a term join to 
 Darker shades symbolize countries with more web log traffic, and lighter shades symbolize countries with less traffic.
 
 [role="screenshot"]
-image::maps/images/gs_add_cloropeth_layer.png[]
+image::maps/images/gs_add_cloropeth_layer.png[Animated image displaying how the "documents" layer is only visible at a certain zoom level]
 
 ===== How a term join works
 
