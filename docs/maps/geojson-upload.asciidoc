@@ -23,7 +23,7 @@ Follow these instructions to upload a GeoJSON data file, or try the
 . Click *Uploaded GeoJSON*.
 +
 [role="screenshot"]
-image::maps/images/fu_gs_select_source_file_upload.png[]
+image::maps/images/fu_gs_select_source_file_upload.png[Image showing the "upload GeoJSON" option to select. The correct option is the first of three, and is at the top]
 
 . Use the file chooser to select a valid GeoJSON file. The file will load
 a preview of the data on the map.
