@@ -19,7 +19,7 @@ You'll learn to:
 When you complete this tutorial, you’ll have a map that looks like this:
 
 [role="screenshot"]
-image::maps/images/sample_data_web_logs.png[]
+image::maps/images/sample_data_web_logs.png[Example of Maps' read only access indicator in Kibana's header. Out of the 4 layers show, 3 are selected]
 
 [float]
 === Prerequisites
@@ -79,7 +79,7 @@ and lighter shades will symbolize countries with less traffic.
 Your map now looks like this:
 +
 [role="screenshot"]
-image::maps/images/gs_add_cloropeth_layer.png[]
+image::maps/images/gs_add_cloropeth_layer.png[Image of map with darkened countries that fit the filter criteria]
 
 [float]
 [[maps-add-elasticsearch-layer]]
@@ -119,7 +119,7 @@ The layer is only visible when users zoom in.
 Your map will look like this from zoom level 9 to 24:
 +
 [role="screenshot"]
-image::maps/images/gs_add_es_document_layer.png[]
+image::maps/images/gs_add_es_document_layer.png[Image of updated map]
 
 [float]
 ==== Add a layer for aggregated data
@@ -149,7 +149,7 @@ grids with less bytes transferred.
 Your map will look like this between zoom levels 0 and 9:
 +
 [role="screenshot"]
-image::maps/images/sample_data_web_logs.png[]
+image::maps/images/sample_data_web_logs.png[Image showing version of the map with the customized filters appearing at the specified zoom]
 
 [float]
 [[maps-save]]
@@ -173,7 +173,7 @@ When you apply a filter in one panel, it is applied to all panels on the dashboa
 . Add **[Logs] Heatmap** and **[Logs] Visitors by OS** to the dashboard.
 +
 [role="screenshot"]
-image::maps/images/gs_dashboard_with_map.png[]
+image::maps/images/gs_dashboard_with_map.png[Image showing updated dashboard, displaying the map you have just created along with other previously added graphs.]
 
 . To filter for documents where **machine.os.keyword** is **osx**, click
 the **osx** slice in the pie chart.
@@ -187,7 +187,7 @@ the **osx** slice in the pie chart.
 .. To show only documents where **geo.src** is **US**, click the filter icon in the row for **ISO 3066-1 alpha-2**.
 +
 [role="screenshot"]
-image::maps/images/gs_dashboard_with_terms_filter.png[]
+image::maps/images/gs_dashboard_with_terms_filter.png[Finalized dashboard, adjusted to the new filters]
 
 [float]
 === What's next?
