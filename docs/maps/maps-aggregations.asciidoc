@@ -36,7 +36,7 @@ In the following example, the Grid aggregation layer is only visible when the ma
 See the <<maps-add-elasticsearch-layer, Getting started>> tutorial for more details on configuring the layers.
 
 [role="screenshot"]
-image::maps/images/grid_to_docs.gif[]
+image::maps/images/grid_to_docs.gif[Gif detailing how the "grid aggregation" and "documents" layers are only visible when the map is zoomed in]
 
 [role="xpack"]
 [[maps-grid-aggregation]]
@@ -83,7 +83,7 @@ This field will be used in the terms aggregation to group your documents into en
 This setting is limited to the `index.max_inner_result_window` index setting, which defaults to 100.
 
 [role="screenshot"]
-image::maps/images/top_hits.png[]
+image::maps/images/top_hits.png[Image displaying the most relevant documents on the map]
 
 [role="xpack"]
 [[point-to-point]]
@@ -96,7 +96,7 @@ Point to point uses an {es} {ref}/search-aggregations-bucket-terms-aggregation.h
 Then, a nested {ref}/search-aggregations-bucket-geotilegrid-aggregation.html[GeoTile grid aggregation] groups sources for each destination into grids.
 A line connects each source grid centroid to each destination.
 
-image::maps/images/point_to_point.png[]
+image::maps/images/point_to_point.png[Image displaying the point-to-point connection on the map, with an array of different line colors and thicknesses.]
 
 [role="xpack"]
 [[terms-join]]
@@ -116,7 +116,7 @@ The <<maps-add-choropleth-layer, choropleth layer example>> uses a term join to 
 Darker shades symbolize countries with more web log traffic, and lighter shades symbolize countries with less traffic.
 
 [role="screenshot"]
-image::maps/images/gs_add_cloropeth_layer.png[Animated image displaying how the "documents" layer is only visible at a certain zoom level]
+image::maps/images/gs_add_cloropeth_layer.png[Image displaying filtered map, with coubtries with the most web traffic colored the darkest.]
 
 ===== How a term join works
 
@@ -127,7 +127,7 @@ ISO 3166-1 alpha-2 code is an international standard that identifies countries b
 For example, *Sweden* has an ISO 3166-1 alpha-2 code of *SE*.
 
 [role="screenshot"]
-image::maps/images/terms_join_shared_key_config.png[]
+image::maps/images/terms_join_shared_key_config.png[Image showing example of what entering shared key information looks like]
 
 ===== Left source
 
@@ -161,7 +161,7 @@ The METRICS configuration defines two metric aggregations:
 * The average of the field "bytes" for all documents in the terms bucket.
 
 [role="screenshot"]
-image::maps/images/terms_join_metric_config.png[]
+image::maps/images/terms_join_metric_config.png[Image showing options for "metrics configuration" field. The options shown are document count and field "bye" average for all documents.]
 
 The right source does not provide individual documents, but instead provides the metrics from a terms aggregation.
 The metrics are calculated from the following sample web logs documents.
