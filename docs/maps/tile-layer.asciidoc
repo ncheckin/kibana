@@ -5,7 +5,7 @@
 Tile layers display image tiles served from a tile server.
 
 [role="screenshot"]
-image::maps/images/tile_layer.png[]
+image::maps/images/tile_layer.png[map displaying blue add layer button in upper right hand corner]
 
 To add a tile layer to your map, click *Add layer*, then select one of the following:
 
