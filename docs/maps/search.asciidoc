@@ -4,7 +4,7 @@
 
 Maps embeds the search bar for real-time search.
 Only layers requesting data from {es} are filtered when you submit a search request.
-Layers narrowed by the search context contain the filter icon image:maps/images/filter_icon.png[] next to the layer name in the legend.
+Layers narrowed by the search context contain the filter icon image:maps/images/filter_icon.png[filter icon shaped like upside down triangle with three horizontal lines filling it in] next to the layer name in the legend.
 
 You can create a layer that requests data from {es} from the following:
 
@@ -19,7 +19,7 @@ You can create a layer that requests data from {es} from the following:
 * <<heatmap-layer>>
 
 [role="screenshot"]
-image::maps/images/global_search_bar.png[]
+image::maps/images/global_search_bar.png[Map with filters and "global search bar" in top right corner]
 
 [role="xpack"]
 [[maps-create-filter-from-map]]
@@ -56,7 +56,7 @@ Spatial filters have the following properties:
 ==== Phrase filters
 
 A phrase filter narrows search results to documents that contain the specified text.
-You can create a phrase filter by clicking the plus icon image:maps/images/gs_plus_icon.png[] in a <<maps-vector-tooltip-locking, locked tooltip>>.
+You can create a phrase filter by clicking the plus icon image:maps/images/gs_plus_icon.png[plus sign inside a blue circle] in a <<maps-vector-tooltip-locking, locked tooltip>>.
 If the map is a dashboard panel with drilldowns, you can apply a phrase filter to a drilldown by selecting the drilldown action.
 
 [role="xpack"]
@@ -69,7 +69,7 @@ Click the *Add filter* button to add a filter to a layer.
 NOTE: Layer filters are not applied to *term joins*. You can apply a search request to *term joins* by setting the *where* clause in the join definition.
 
 [role="screenshot"]
-image::maps/images/layer_search.png[]
+image::maps/images/layer_search.png[pop up menu showing options for spatial filters]
 
 [role="xpack"]
 [[maps-search-across-multiple-indices]]
@@ -111,7 +111,7 @@ the `kibana_sample_data_flights` layer is empty because the index
 `kibana_sample_data_flights` does not contain the field `machine.os.keyword` and no documents match the query.
 
 [role="screenshot"]
-image::maps/images/global_search_multiple_indices_query1.png[]
+image::maps/images/global_search_multiple_indices_query1.png[map with only one type of documents visible]
 
 If you instead query for
 --------------------------------------------------
@@ -120,4 +120,4 @@ machine.os.keyword : "osx" or _index : "kibana_sample_data_flights"
 the `kibana_sample_data_flights` layer includes data.
 
 [role="screenshot"]
-image::maps/images/global_search_multiple_indices_query2.png[]
+image::maps/images/global_search_multiple_indices_query2.png[map with both queried filters showing, one in red, and one in green]
