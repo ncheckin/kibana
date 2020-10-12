@@ -5,7 +5,7 @@
 Vector layers display points, lines, and polygons.
 
 [role="screenshot"]
-image::maps/images/vector_layer.png[]
+image::maps/images/vector_layer.png[layer menu with two existing layers and add menu button]
 
 To add a vector layer to your map, click *Add layer*, then select one of the following:
 
