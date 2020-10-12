@@ -55,7 +55,7 @@ Use *Icon* to symbolize Points as icons.
 Available icons
 
 [role="screenshot"]
-image::maps/images/maki-icons.png[]
+image::maps/images/maki-icons.png[Page of available icons, displaying approximately 180 options]
 
 
 [float]
