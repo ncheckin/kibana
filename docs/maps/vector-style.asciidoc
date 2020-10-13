@@ -16,7 +16,7 @@ This image shows an example of static styling using the <<add-sample-data, Kiban
 The *kibana_sample_data_logs* layer uses static styling for all properties.
 
 [role="screenshot"]
-image::maps/images/vector_style_static.png[]
+image::maps/images/vector_style_static.png[example of sample data logs following static styling]
 
 
 [float]
@@ -36,7 +36,7 @@ Light green circles symbolize documents that occur earlier in the day, and dark 
 Smaller circles symbolize documents with smaller payloads, and larger circles symbolize documents with larger payloads.
 
 [role="screenshot"]
-image::maps/images/vector_style_dynamic.png[]
+image::maps/images/vector_style_dynamic.png[map with "byte" filters displaying different colors and different sizes of circles throughout the map]
 
 
 [float]
@@ -58,7 +58,7 @@ To configure extended_stats, click the gear icon image:maps/images/gear_icon.png
 NOTE: When extended_stats is not used, symbols might be inconsistent as users pan, zoom, and filter the map. Without extended_stats, the range is calculated with data from the local layer. The range is re-calculated when layer data changes.
 
 [role="screenshot"]
-image::maps/images/extended_stats_config.png[]
+image::maps/images/extended_stats_config.png[menu for extended stats configuration. the image displays the result of clicking the gear icon, which yields a slider representing values for sigma.]
 
 When the property value is undefined for a feature:
 
@@ -96,7 +96,7 @@ This image shows an example of quantitative data driven styling using the <<add-
 The `machine.os.keyword` property determines the color of each symbol based on category.
 
 [role="screenshot"]
-image::maps/images/quantitative_data_driven_styling.png[]
+image::maps/images/quantitative_data_driven_styling.png[example of quantitative data, with different operating systems represented by different colors of circles throughout the map]
 
 
 [float]
@@ -115,4 +115,4 @@ The fill color is a static value of green.
 The fill color is a static value of red.
 
 [role="screenshot"]
-image::maps/images/vector_style_class.png[]
+image::maps/images/vector_style_class.png[filtered version of the map above, displaying results only for Windows and Mac OS, in red and violet, respectively]
