@@ -10,7 +10,7 @@ The following image shows a tooltip with three features at the current location.
 The tooltip displays attributes for the top feature, the green circle.
 
 [role="screenshot"]
-image::maps/images/multifeature_tooltip.png[]
+image::maps/images/multifeature_tooltip.png[Map with the united states blocked out in red, with a state covered in blue overlay filter, and green circle with attributes hovering over it.]
 
 [float]
 [[maps-vector-tooltip-formatting]]
@@ -38,4 +38,4 @@ controls for paging through the features and a dropdown menu for filtering
 the features by layer.
 
 [role="screenshot"]
-image::maps/images/locked_tooltip.png[]
+image::maps/images/locked_tooltip.png[Tootltip shown in more detail, with demonstration of multiple pages, and dropdown menu.]
