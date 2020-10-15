@@ -31,12 +31,12 @@ response code. The weight of the connection between two vertices indicates how s
 are related.
 +
 [role="screenshot"]
-image::user/graph/images/graph-url-connections.png["URL connections"]
+image::user/graph/images/graph-url-connections.png[Map with 5 different colors of successful requests, tied together by lines, with the "weight of connection" signified by lines between them]
 
 . To view more information about the relationship, click any connection.
 +
 [role="screenshot"]
-image::user/graph/images/graph-link-summary.png["Link summary"]
+image::user/graph/images/graph-link-summary.png["Link summary", in a menu displayed in the right of the screen]
 
 . Use the control bar to explore
 additional connections:
@@ -55,7 +55,7 @@ image:user/graph/images/graph-redo-button.png[Redo].
 . To see more relationships in your data, submit additional queries.
 +
 [role="screenshot"]
-image::user/graph/images/graph-add-query.png["Adding networks"]
+image::user/graph/images/graph-add-query.png[updated map with new queries shown in violet]
 
 . *Save* your graph.
 
