@@ -25,7 +25,7 @@ For example, to change the index pattern for a set of charts:
 Specify the variable options.
 
 [role="screenshot"]
-image::images/specify_variable_syntax.png[Image describing how to specify the variable syntax]
+image::images/specify_variable_syntax.png[Screenshot of a form titled "Add variable". A dropdown labelled "Type" is set to "String". A text field labelled "Name" is filled in with "indexName". A text field labelled "Value" is filled in with "my_new_index_name".]
 
 Copy the variable, then apply it to each element you want to update in the *Expression editor*.
 
