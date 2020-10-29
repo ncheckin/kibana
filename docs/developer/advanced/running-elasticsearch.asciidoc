@@ -99,7 +99,7 @@ yarn es snapshot -E transport.port=9500 -E http.port=9201 -E path.data=../data_p
 
 Once both clusters are running, start {kib}. {kib} will connect to the primary cluster.
 
-Setup the remote cluster in {kib} from either Management -> {es} -> Remote Clusters UI or by running the following script in Console.
+Setup the remote cluster in {kib} from either Management -> {es} -> Remote Clusters or by running the following script in Console.
 
 [source,bash]
 ----
