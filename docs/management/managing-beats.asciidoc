@@ -89,7 +89,7 @@ Under *Enrolled {beats}*, you can view the list of enrolled {beats} to see
 details, including the type, applied tags, configuration status, and the last
 configuration update. Click the *Beat name* or *Type* column heading to sort the
 list. To filter the list, enter a search string. If there are errors in a
-configuration, you’ll see an Error status in the Central Management UI and need
+configuration, you’ll see an Error status in the Central Management and need
 to look at {beats} logs to troubleshoot the problem.
 
 You can add or remove tags, and the configuration changes are automatically
