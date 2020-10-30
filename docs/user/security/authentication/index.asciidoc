@@ -17,15 +17,15 @@
 
 Enable multiple authentication mechanisms at the same time specifying a prioritized list of the authentication _providers_ (typically of various types) in the configuration. Providers are consulted in ascending order. Make sure each configured provider has a unique name (e.g. `basic1` or `saml1` in the configuration example) and `order` setting. In the event that two or more providers have the same name or `order`, {kib} will fail to start.
 
-When two or more providers are configured, you can choose the provider you want to use on the Login Selector UI. The order the providers appear is determined by the `order` setting. The appearance of the specific provider entry can be customized with the `description`, `hint`, and `icon` settings.
+When two or more providers are configured, you can choose the provider you want to use on the Login Selector. The order the providers appear is determined by the `order` setting. The appearance of the specific provider entry can be customized with the `description`, `hint`, and `icon` settings.
 
-TIP: To provide login instructions to users, use the `xpack.security.loginHelp` setting, which supports Markdown format. When you specify the `xpack.security.loginHelp` setting, the Login Selector UI displays a `Need help?` link that lets users access login help information.
+TIP: To provide login instructions to users, use the `xpack.security.loginHelp` setting, which supports Markdown format. When you specify the `xpack.security.loginHelp` setting, the Login Selector displays a `Need help?` link that lets users access login help information.
 
-If you don't want a specific provider to show up at the Login Selector UI (e.g. to only support third-party initiated login) you can hide it with `showInSelector` setting set to `false`. However, in this case, the provider is presented in the provider chain and may be consulted during authentication based on its `order`. To disable the provider, use the `enabled` setting.
+If you don't want a specific provider to show up at the Login Selector (e.g. to only support third-party initiated login) you can hide it with `showInSelector` setting set to `false`. However, in this case, the provider is presented in the provider chain and may be consulted during authentication based on its `order`. To disable the provider, use the `enabled` setting.
 
-TIP: The Login Selector UI can also be disabled or enabled with `xpack.security.authc.selector.enabled` setting. 
+TIP: The Login Selector can also be disabled or enabled with `xpack.security.authc.selector.enabled` setting. 
 
-Here is how your `kibana.yml` and Login Selector UI can look like if you deal with multiple authentication providers:
+Here is how your `kibana.yml` and Login Selector can look like if you deal with multiple authentication providers:
 
 [source,yaml]
 --------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ xpack.security.authc.providers:
 --------------------------------------------------------------------------------
 
 [role="screenshot"]
-image::user/security/images/kibana-login.png["Login Selector UI"]
+image::user/security/images/kibana-login.png["Login Selector"]
 
 For more information, refer to <<authentication-security-settings, authentication security settings>>.
 
