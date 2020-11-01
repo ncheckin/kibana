@@ -68,7 +68,7 @@ in the graph will be selected from these terms.)
 . Enter a search query to discover relationships between terms in the selected field.
 
 For example, we indexed user data from Last.fm that contains the top artists played by each
-user. To use the Graph UI to find artists we might like, we can select the Last.fm index, select the field that contains the raw artist information, and search for an artist we like:
+user. To use Graph to find artists we might like, we can select the Last.fm index, select the field that contains the raw artist information, and search for an artist we like:
 
 image::user/graph/images/graph-init-screen.jpg["Getting started with graph"]
 
