@@ -64,7 +64,7 @@ You can also select the {kib} category at https://discuss.elastic.co/[discuss.el
 +
 * If you are adding your integration to an existing service,
 click the name of the service you want to add the integration to.
-Then, select the *Integrations* tab and click the *New Integration* button.
+Then, select *Integrations* and click the *New Integration* button.
 * If you are creating a new service for your integration,
 go to
 https://support.pagerduty.com/docs/services-and-integrations#section-configuring-services-and-integrations[Configuring Services and Integrations]
@@ -75,7 +75,7 @@ Continue with the <<pagerduty-in-elastic, In Elastic>> section once you have fin
 and select *Elastic Alerts* from the *Integration Type* menu.
 . Click *Add Integration* to save your new integration.
 +
-You will be redirected to the *Integrations* tab for your service. An Integration Key is generated on this screen.
+You will be redirected to *Integrations* for your service. An Integration Key is generated on this screen.
 +
 [role="screenshot"]
 image::user/alerting/images/pagerduty-integration.png[PagerDuty Integrations tab]
