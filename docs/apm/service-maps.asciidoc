@@ -30,14 +30,14 @@ distributed tracing will not work, and the connection will not be drawn on the m
 [[visualize-your-architecture]]
 === Visualize your architecture
 
-Select the **Service Map** tab to get started.
+Select **Service Map** to get started.
 By default, all instrumented services and connections are shown.
 Whether you're onboarding a new engineer, or just trying to grasp the big picture,
 drag things around, zoom in and out, and begin to visualize how your services are connected.
 
 If there's a specific service that interests you, select that service to highlight its connections.
 Clicking **Focus map** will refocus the map on that specific service and lock the connection highlighting.
-From here, select **Service Details**, or click on the **Transaction** tab to jump to the Transaction overview
+From here, select **Service Details**, or click on **Transaction** to jump to the Transaction overview
 for the selected service.
 You can also use the tabs at the top of the page to easily jump to the **Errors** or **Metrics** overview.
 
