@@ -3,7 +3,7 @@
 === Managing Alerts
 
 
-The *Alerts* tab provides a cross-app view of alerting. Different {kib} apps like <<metrics-app,Metrics>>, <<xpack-apm,APM>>, <<uptime-app,Uptime>>, and <<xpack-siem,SIEM>> can offer their own alerts, and the *Alerts* tab provides a central place to:
+*Alerts* provide a cross-app view of alerting. Different {kib} apps like <<metrics-app,Metrics>>, <<xpack-apm,APM>>, <<uptime-app,Uptime>>, and <<xpack-siem,SIEM>> can offer their own alerts, and the *Alerts* tab provides a central place to:
 
 * <<create-edit-alerts, Create and edit>> alerts
 * <<controlling-alerts, Control alerts>> including enabling/disabling, muting/unmuting, and deleting
@@ -17,7 +17,7 @@ For more information on alerting concepts and the types of alerts and actions av
 [float]
 ==== Finding alerts
 
-The *Alerts* tab lists all alerts in the current space, including summary information about their execution frequency, tags, and type.
+*Alerts* list all alerts in the current space, including summary information about their execution frequency, tags, and type.
 
 The *search bar* can be used to quickly find alerts by name or tag.
 
