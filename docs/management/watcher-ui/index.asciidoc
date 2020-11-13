@@ -168,7 +168,7 @@ and status.
 [float]
 ==== View watch history
 
-The *Execution history* tab shows each time the watch is triggered and the
+*Execution history* shows each time the watch is triggered and the
 results of the query, whether the condition was met, and what actions were taken.
 
 [role="screenshot"]
@@ -177,7 +177,7 @@ image:management/watcher-ui/images/execution-history.png["Execution history tab"
 [float]
 ==== Acknowledge action status
 
-The *Action statuses* tab lists all actions associated with the watch and
+*Action statuses* lists all actions associated with the watch and
 the state of each action. If the action is firing, you can acknowledge the
 watch to prevent too many executions of the same action for the same watch.
 See {ref}/actions.html#actions-ack-throttle[Acknowledgement and throttling] for details.
@@ -220,7 +220,7 @@ image:management/watcher-ui/images/advanced-watch/advanced-watch-create.png["Cre
 [float]
 ==== Simulate the watch
 
-The *Simulate* tab allows you to override parts of the watch, and then run a
+*Simulate* allows you to override parts of the watch, and then run a
 simulation. Be aware of these implementation details on overrides:
 
 * Trigger overrides use {ref}/common-options.html#date-math[date math].
