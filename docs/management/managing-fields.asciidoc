@@ -98,7 +98,7 @@ https://www.elastic.co/blog/using-painless-kibana-scripted-fields[Using Painless
 
 . Open the main menu, then click *Stack Management > Index Patterns*.
 . Select the index pattern you want to add a scripted field to.
-. Go to the *Scripted fields* tab for the index pattern, then click *Add scripted field*.
+. Go to *Scripted fields* for the index pattern, then click *Add scripted field*.
 . Enter a name for the scripted field.
 . Enter the expression that you want to use to compute a value on the fly from your index data.
 . Click *Create field*.
@@ -110,7 +110,7 @@ For more information about scripted fields in {es}, see
 [[update-scripted-field]]
 === Update a scripted field
 
-. Click the *Scripted fields* tab for the index pattern.
+. Click *Scripted fields* for the index pattern.
 . Click the *Edit* button for the scripted field you want to change.
 . Make your changes, then click *Save field*.
 
@@ -121,6 +121,6 @@ exceptions whenever you try to view the dynamically generated data.
 [[delete-scripted-field]]
 === Delete a scripted field
 
-. Click the *Scripted fields* tab for the index pattern.
+. Click *Scripted fields* for the index pattern.
 . Click *Delete* for the scripted field you want to remove.
 . Click *Delete* on the confirmation window.
