@@ -4,7 +4,7 @@
 
 beta[]
 
-Alerts use *Connectors* to route actions to different destinations like log files, ticketing systems, and messaging tools. While each {kib} app can offer their own types of alerts, they typically share connectors. *Connectors* offers a central place to view and manage all the connectors in the current space.
+Alerts use *Connectors* to route actions to different destinations like log files, ticketing systems, and messaging tools. While each {kib} app can offer their own types of alerts, they typically share connectors. *Connectors* offer a central place to view and manage all the connectors in the current space.
 
 For more information on connectors and the types of actions available see <<action-types>>.
 
@@ -15,7 +15,7 @@ image::images/connector-listing.png[Example connector listing in the Alerts and 
 [float]
 ==== Connector list
 
-*Connectors* lists all connectors in the current space. The *search bar* can be used to find specific connectors by name and/or type.
+*Connectors* list all connectors in the current space. The *search bar* can be used to find specific connectors by name and/or type.
 
 [role="screenshot"]
 image::images/connector-filter-by-search.png[Filtering the connector list using the search bar]
