@@ -371,7 +371,7 @@ map.regionmap:
 |===
 
 | [[regionmap-field-description]] `map.regionmap.layers[].fields[].description:` {ess-icon}
- | Mandatory. The human readable text that is shown under the Options tab when
+ | Mandatory. The human readable text that is shown under Options when
 building the Region Map visualization.
 
 | [[regionmap-field-name]] `map.regionmap.layers[].fields[].name:` {ess-icon}
